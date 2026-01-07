@@ -5,7 +5,7 @@ import random
 weather_bp = Blueprint(
     "weather",
     __name__,
-    url_prefix="/api/weather"
+    url_prefix="/api"
 )
 
 # 1. Простой динамический маршрут
